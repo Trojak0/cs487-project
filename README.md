@@ -41,7 +41,7 @@ node -v             # v24.x
 
 ### 3. Clone and install
 ```bash
-git clone git@github.com:Trojak0/cs487-project.git
+git clone https://github.com/Trojak0/cs487-project.git
 cd cs487-project
 nvm use             # reads .nvmrc
 npm install         # installs @microsoft/mxc-sdk
