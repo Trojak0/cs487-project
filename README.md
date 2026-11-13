@@ -34,9 +34,7 @@ If you have conda, turn off auto-activation so it doesn't shadow your Node or Py
 ### 2. Node.js 24+ (via nvm)
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-```
-Open a new terminal (or `source ~/.bashrc` on Linux, `source ~/.zshrc` on macOS), then:
-```bash
+export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh"   # load nvm in this terminal
 nvm install 24 && nvm alias default 24
 node -v             # v24.x
 ```
