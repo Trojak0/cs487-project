@@ -12,5 +12,9 @@
   },
   "dependencies": {
     "@microsoft/mxc-sdk": "^1.0.1"
+  },
+  "allowScripts": {
+    "koffi@3.3.7": true,
+    "node-pty@1.1.0": true
   }
 }
