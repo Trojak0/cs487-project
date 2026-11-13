@@ -1,0 +1,16 @@
+{
+  "name": "taster",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TASTER - Tracing and Sandboxed Testing of External Repositories",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "node src/sandbox/hello.js"
+  },
+  "dependencies": {
+    "@microsoft/mxc-sdk": "^1.0.1"
+  }
+}
